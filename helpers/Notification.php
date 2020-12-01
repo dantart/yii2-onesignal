@@ -45,7 +45,7 @@ class Notification extends Request
         $params["app_id"] = $this->appId;
 
         $this->createParams = ArrayHelper::merge($options, $params);
-        $this->createParams["included_segments"] = isset($this->createParams["included_segments"]) ? $this->createParams["included_segments"] : ["All"];
+        // $this->createParams["included_segments"] = isset($this->createParams["included_segments"]) ? $this->createParams["included_segments"] : ["All"];
 
         return $this;
     }

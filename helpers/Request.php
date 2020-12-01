@@ -2,10 +2,10 @@
 
 namespace dantart\onesignal\helpers;
 
-use yii\base\Object;
+use yii\base\BaseObject;
 use GuzzleHttp\Client;
 
-class Request extends Object
+class Request extends BaseObject
 {
 
     public $client;
